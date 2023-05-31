@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+  
+.footer{
+    width: 100%;
+    height:100px;
+    background-color: #ff0000;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: auto;
+}
+
+.texting{
+    color: white;
+    margin-bottom: 35px;
+    padding-left: 20px;
+    cursor: pointer;
+    font-weight: lighter;
+}
+.texting:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}

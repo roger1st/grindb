@@ -1,0 +1,121 @@
+.firstsec{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: auto;
+}
+.cartoes{
+    width: 400px;
+    height: 400px;
+    cursor: none;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    box-shadow: 6px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 300px;
+    background-color: white;
+    border: solid #ff0000 3px;
+    border-radius: 15%;
+    margin-right: 20px;
+}
+.box button{
+    background-color: #ff0000;
+    border-radius: 20px;
+    height: 40px;
+    width: 140px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    border: #ff0000 2px solid;
+    background-color: white;
+    color: #ff0000;
+
+}
+input{
+    border-bottom: #ff0000 solid 1px;
+    
+
+}
+
+.divisor{
+    top: 400px;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+        background-size: cover;
+        background-position: center;
+}
+
+.requisitos{
+height: 460px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.cifrao{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+.requisitos img{
+    width: 140px;
+    height: 140px;
+}
+.calendar{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+.score{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+.textarea{
+    font-size: 30px;
+}
+.textarea h2{
+    font-weight: lighter;
+    color: #ff0000;
+}
+
+
+.hrr{
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    background-color: #ff0000;
+}
+.areacontrato{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+
+}
+.clausula{
+    text-align: center;
+    line-height: 30px;
+    
+}
+.clausula h1{
+    color: #ff0000;
+    margin-top: 50px;
+    font-size: 40px;
+
+}
+.clausula h3{
+    font-weight: lighter;
+    color: black;
+    cursor: default;
+    font-size: 25px;
+    margin-top: 30px;
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+  
+.userarea{
+    height: 300px;
+    background-color: #ff0000;
+}
+.imgarea{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.imgarea img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+.eye{
+    margin-left: 1077px;
+}
+.userarea h1{
+    font-size: 36px;
+    color: white;
+    margin-top: 180px;
+    margin-left: 10px;
+}
+.accarea h1{
+    font-size: 36px;
+    margin-left: 10px;
+    color: #ff0000;
+}
+.accarea h3{
+    font-size: 36px;
+    margin-left: 10px;
+    color: #000000;
+}
+.accarea span{
+    color: #ff0000;
+    margin-right: 10px;
+}
+.btnsarea{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    background-color: #ffffff;
+}
+.btnsarea img{
+    width: -1px;
+    height: 176px;
+}
+.credit{
+    height: 260px;
+    background: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.credit h1{
+    font-size: 36px;
+    margin-bottom: 30px;
+ }
+ .credit h2{
+    font-size: 36px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+ }
+ .credit h3{
+    font-size: 38px;
+    margin-bottom: 20px;
+ }
+ .credit span{
+    color: #ff0000;
+ }
+ .credit button{
+    width: 150px;
+    height: 100px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 13px;
+    font-weight: lighter;
+    cursor: pointer;
+ }
+ .gamearea{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .gamearea img{
+    width: -1px;
+    height: 214px;
+    margin-right: 60px;
+ }
